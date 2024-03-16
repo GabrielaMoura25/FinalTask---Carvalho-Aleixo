@@ -13,19 +13,19 @@ Este é um projeto de web scraper desenvolvido em Node.js utilizando a bibliotec
 1. Clone este repositório para o seu ambiente local:
 
 ```bash
- git clone git@github.com:GabrielaMoura25/FinalTask---Carvalho-Aleixo.git
+git clone git@github.com:GabrielaMoura25/FinalTask---Carvalho-Aleixo.git
 ```
 
 2. Navegue até o diretório do projeto:
 
 ```bash
- cd FinalTask---Carvalho-Aleixo
+cd FinalTask---Carvalho-Aleixo
 ```
 
 3. Instale as dependências do projeto:
 
 ```bash
- npm install
+npm install
 ```
 
 ### Execução
@@ -33,7 +33,7 @@ Este é um projeto de web scraper desenvolvido em Node.js utilizando a bibliotec
 Para executar o web scraper, utilize o seguinte comando:
 
 ```bash
- node index.js ou npm start
+node index.js ou npm start
 ```
 
 Se quiser que o scraper abra uma instância do navegador Chrome controlada pelo Puppeteer enquanto começa a extrair informações dos produtos da Amazon, va até o arquivo `index.js` e altere a propriedade `headless` para `false`.
@@ -46,3 +46,11 @@ Se quiser que o scraper abra uma instância do navegador Chrome controlada pelo 
 - `scrapers/productScraper.js`: Módulo de scraping genérico para extrair detalhes de produtos.
 - `utils/`: Pasta contendo funções utilitárias compartilhadas entre os scrapers.
 - `utils/scrapeUtils.js`: Módulo contendo funções de scraping comuns utilizadas pelos scrapers.
+
+## Nota
+
+Este projeto é apenas para fins educacionais e não deve ser usado para violar os termos de serviço de nenhum site. Certifique-se de usar o web scraping de forma ética e respeitosa.
+
+## Desenvolvido por
+
+Gabriela Moura, © 2024.
